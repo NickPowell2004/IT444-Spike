@@ -1,7 +1,7 @@
 # IT 444 Technical Spike: PEP Enforcement Time
 
 **Author:** Nick Powell | Team 1 | Project LEE-002
-**Requirements:** FR-08 (enforcement time only), FR-01
+**Requirements:** FR-08, FR-01
 
 ## Question
 Can the PEP mute or remove one flagged participant in under 5 seconds without affecting the others?
