@@ -50,9 +50,13 @@ Video: https://www.youtube.com/watch?v=g-cxw9iWrEg
 
 The recording demonstrates the mute and removal tests, including the execution times and confirmation that other participants remain unaffected.
 
-## Screenshots
-Running the LiveKit server.
-<img width="1165" height="641" alt="image" src="https://github.com/user-attachments/assets/d2e24ec6-290e-48b3-8ee7-af35f0895b31" />
+### Test Evidence and Screenshots
+
+**Figure 1. LiveKit Server Initialization**
+
+Shows the LiveKit server starting locally in development mode and listening for participant connections.
+
+![Figure 1 - LiveKit Server Initialization](https://github.com/user-attachments/assets/d2e24ec6-290e-48b3-8ee7-af35f0895b31)
 
 Generating participant access tokens using a Python script to prepare Alice, Bob, and Carol for LiveKit testing.
 <img width="1115" height="626" alt="image" src="https://github.com/user-attachments/assets/0f8187d9-6c5e-41ac-8cc2-133424d6cded" />
