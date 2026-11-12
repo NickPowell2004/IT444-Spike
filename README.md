@@ -31,6 +31,8 @@ Testing a python script and generating tokens for users
 <img width="1913" height="949" alt="image" src="https://github.com/user-attachments/assets/743ade97-eb6b-4137-9f49-e25f67e5c375" />
 User being removed from the call, showing disconnected.
 <img width="1919" height="952" alt="image" src="https://github.com/user-attachments/assets/ab5f0f3f-e414-4a0a-a391-ff2800d70be1" />
+User being muted from the call, showing muted.
+<img width="1918" height="947" alt="image" src="https://github.com/user-attachments/assets/e63502d3-1617-4c7f-ac40-7190b7916455" />
 3 participants actively talking.
 <img width="1916" height="942" alt="image" src="https://github.com/user-attachments/assets/9722e17a-5b91-4bb2-9a43-eb5199af88b7" />
 Results of the 10 removing trials.
