@@ -54,7 +54,7 @@ The recording demonstrates the mute and removal tests, including the execution t
 Running the LiveKit server.
 <img width="1165" height="641" alt="image" src="https://github.com/user-attachments/assets/d2e24ec6-290e-48b3-8ee7-af35f0895b31" />
 
-Testing a python script and generating tokens for users
+Generating participant access tokens using a Python script to prepare Alice, Bob, and Carol for LiveKit testing.
 <img width="1115" height="626" alt="image" src="https://github.com/user-attachments/assets/0f8187d9-6c5e-41ac-8cc2-133424d6cded" />
 
 3 participants in the LiveKit call
