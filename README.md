@@ -25,13 +25,13 @@ Can the PEP mute or remove one flagged participant in under 5 seconds without af
 - evidence/ :
 Running the LiveKit server.
 <img width="1165" height="641" alt="image" src="https://github.com/user-attachments/assets/d2e24ec6-290e-48b3-8ee7-af35f0895b31" />
-
+Testing a python script and generating tokens for users
 <img width="1115" height="626" alt="image" src="https://github.com/user-attachments/assets/0f8187d9-6c5e-41ac-8cc2-133424d6cded" />
-
+3 participants in the LiveKit call
 <img width="1913" height="949" alt="image" src="https://github.com/user-attachments/assets/743ade97-eb6b-4137-9f49-e25f67e5c375" />
 User being removed from the call, showing disconnected.
 <img width="1919" height="952" alt="image" src="https://github.com/user-attachments/assets/ab5f0f3f-e414-4a0a-a391-ff2800d70be1" />
-3 participants joining and talking.
+3 participants actively talking.
 <img width="1916" height="942" alt="image" src="https://github.com/user-attachments/assets/9722e17a-5b91-4bb2-9a43-eb5199af88b7" />
 Results of the 10 removing trials.
 <img width="1111" height="568" alt="image" src="https://github.com/user-attachments/assets/4ba8093c-8c7f-4192-ac1c-1feb503a2d4d" />
