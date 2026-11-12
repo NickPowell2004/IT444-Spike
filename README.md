@@ -1,10 +1,10 @@
 # IT 444 Technical Spike: PEP Enforcement Time
 
 **Author:** Nick Powell | Team 1 | Project LEE-002
-**Requirements:** FR-08, FR-01
+**Requirements:** FR-08 (enforcement time only), FR-01 (others unaffected)
 
 ## Question
-Can the PEP mute or remove a flagged participant in under 5 seconds, leaving enough time for the complete detection and enforcement process to stay under the 30-second goal?
+Can the PEP mute or remove one flagged participant in under 5 seconds without affecting the others?
 
 ## Pass marks
 - Time to mute a flagged participant: under 5 s in 10 of 10 trials
@@ -20,6 +20,8 @@ Can the PEP mute or remove a flagged participant in under 5 seconds, leaving eno
 
 ## Setup
 - Windows laptop/PC
+- Python 3.11
+- Brave browser (or any chromium browser)
 - LiveKit server 1.13.11, Python SDK (livekit-api)
 - Browser windows acting as callers
 
@@ -71,17 +73,17 @@ Shows Alice, Bob, and Carol connected to the same LiveKit call before the mute a
 
 Shows Alice, Bob, and Carol actively participating in the call, demonstrating that participant audio streams are working.
 
-![Figure 6 - Three Participants Actively Talking](https://github.com/user-attachments/assets/9722e17a-5b91-4bb2-9a43-eb5199af88b7)
+![Figure 4 - Three Participants Actively Talking](https://github.com/user-attachments/assets/9722e17a-5b91-4bb2-9a43-eb5199af88b7)
 
 **Figure 5. Participant Successfully Removed from the LiveKit Call**
 
 Shows Bob being removed from the LiveKit room and appearing as disconnected after the removal action.
-![Figure 4 - Participant Removed](https://github.com/user-attachments/assets/6d3eabbd-7df1-4a95-9f73-4336205a7443)
+![Figure 5 - Participant Removed](https://github.com/user-attachments/assets/6d3eabbd-7df1-4a95-9f73-4336205a7443)
 
 **Figure 6. Participant Successfully Muted in the LiveKit Call**
 
 Shows Bob being muted by the enforcement script while remaining connected to the LiveKit room.
-![Figure 5 - Participant Muted](https://github.com/user-attachments/assets/e63502d3-1617-4c7f-ac40-7190b7916455)
+![Figure 6 - Participant Muted](https://github.com/user-attachments/assets/e63502d3-1617-4c7f-ac40-7190b7916455)
 
 **Figure 7. Results of the 10 Participant Removal Trials**
 
