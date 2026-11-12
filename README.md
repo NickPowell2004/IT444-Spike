@@ -4,7 +4,7 @@
 **Requirements:** FR-08, FR-01
 
 ## Question
-Can the PEP mute or remove one flagged participant in under 5 seconds without affecting the others?
+Can the PEP mute or remove a flagged participant in under 5 seconds, leaving enough time for the complete detection and enforcement process to stay under the 30-second goal?
 
 ## Pass marks
 - Time to mute a flagged participant: under 5 s in 10 of 10 trials
@@ -31,7 +31,7 @@ Can the PEP mute or remove one flagged participant in under 5 seconds without af
 5. python pep_spike.py remove 10 (rejoin as bob between trials)
 
 ## Limits
-- Tested on a computer, not the Pi
+- Tested on a desktop computer
 - A script stands in for the PDP and PEP
 - Detection time is not included
 - Times are server-side (when the server shows the change), not when a browser shows it
