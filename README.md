@@ -44,6 +44,12 @@ Can the PEP mute or remove one flagged participant in under 5 seconds without af
 - results_for_muting.txt / results_for_removing.txt: raw results (10 trials each)
 - Screenshots below show the setup and results
 
+## Screen Recording
+
+Watch the technical spike demonstration
+
+The recording demonstrates the mute and removal tests, including the execution times and confirmation that other participants remain unaffected.
+
 ## Screenshots
 Running the LiveKit server.
 <img width="1165" height="641" alt="image" src="https://github.com/user-attachments/assets/d2e24ec6-290e-48b3-8ee7-af35f0895b31" />
