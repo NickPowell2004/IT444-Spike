@@ -50,7 +50,7 @@ Video: https://www.youtube.com/watch?v=g-cxw9iWrEg
 
 The recording demonstrates the mute and removal tests, including the execution times and confirmation that other participants remain unaffected.
 
-### Test Evidence and Screenshots
+## Test Evidence and Screenshots
 
 **Figure 1. LiveKit Server Initialization**
 
