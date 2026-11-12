@@ -33,6 +33,9 @@ Can the PEP mute or remove one flagged participant in under 5 seconds without af
 <img width="1916" height="942" alt="image" src="https://github.com/user-attachments/assets/9722e17a-5b91-4bb2-9a43-eb5199af88b7" />
 Results of the 10 removing trials.
 <img width="1111" height="568" alt="image" src="https://github.com/user-attachments/assets/4ba8093c-8c7f-4192-ac1c-1feb503a2d4d" />
+Results of the 10 muting trials.
+<img width="1111" height="568" alt="image" src="https://github.com/user-attachments/assets/1af763dd-2528-4577-aced-03d3b41990e0" />
+
 
 
 
