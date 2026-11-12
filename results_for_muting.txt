@@ -1,0 +1,11 @@
+time,trial,action,seconds,others_unaffected,passed
+2026-11-11T19:25:38,1,mute,0.002,True,True
+2026-11-11T19:25:43,2,mute,0.002,True,True
+2026-11-11T19:25:45,3,mute,0.002,True,True
+2026-11-11T19:25:48,4,mute,0.002,True,True
+2026-11-11T19:25:49,5,mute,0.002,True,True
+2026-11-11T19:25:55,6,mute,0.002,True,True
+2026-11-11T19:25:58,7,mute,0.002,True,True
+2026-11-11T19:26:00,8,mute,0.002,True,True
+2026-11-11T19:26:02,9,mute,0.002,True,True
+2026-11-11T19:26:05,10,mute,0.002,True,True
