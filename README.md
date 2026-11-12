@@ -11,17 +11,39 @@ Can the PEP mute or remove one flagged participant in under 5 seconds without af
 - Time to remove a flagged participant: under 5 s in 10 of 10 trials
 - Other participants unaffected: 10 of 10 trials
 
+## Results
+| Measure | Pass mark | Result | Passed? |
+|---|---|---|---|
+| Time to mute | under 5 s, 10 of 10 | 10 of 10, avg 0.002 s, worst 0.002 s | Yes |
+| Time to remove | under 5 s, 10 of 10 | 10 of 10, avg 0.004 s, worst 0.005 s | Yes |
+| Others unaffected | 10 of 10 | 10 of 10 (mute and remove) | Yes |
+
 ## Setup
-- Windows laptop
+- Windows laptop/PC
 - LiveKit server 1.13.11, Python SDK (livekit-api)
 - Browser windows acting as callers
+
+## How to run
+1. livekit-server --dev
+2. pip install livekit-api
+3. python make_tokens.py (join alice, bob, carol at meet.livekit.io, Custom tab, ws://localhost:7880, mics on)
+4. python pep_spike.py mute 10
+5. python pep_spike.py remove 10 (rejoin as bob between trials)
 
 ## Limits
 - Tested on a computer, not the Pi
 - A script stands in for the PDP and PEP
 - Detection time is not included
+- Times are server-side (when the server shows the change), not when a browser shows it
+- Bob was unmuted or rejoined by hand between trials
+- The 5-second pass mark was set generously, leaving about 25 s of the 30 s goal for detection
 
 ## Files
+- make_tokens.py: generates join tokens for alice, bob and carol
+- pep_spike.py: stand-in PDP/PEP that mutes or removes bob and times it
+- results_for_muting.txt / results_for_removing.txt: raw results (10 trials each)
+- Screenshots below show the setup and results
+
 - evidence/ :
 Running the LiveKit server.
 <img width="1165" height="641" alt="image" src="https://github.com/user-attachments/assets/d2e24ec6-290e-48b3-8ee7-af35f0895b31" />
