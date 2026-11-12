@@ -55,29 +55,43 @@ The recording demonstrates the mute and removal tests, including the execution t
 **Figure 1. LiveKit Server Initialization**
 
 Shows the LiveKit server starting locally in development mode and listening for participant connections.
-
 ![Figure 1 - LiveKit Server Initialization](https://github.com/user-attachments/assets/d2e24ec6-290e-48b3-8ee7-af35f0895b31)
 
-Generating participant access tokens using a Python script to prepare Alice, Bob, and Carol for LiveKit testing.
-<img width="1115" height="626" alt="image" src="https://github.com/user-attachments/assets/0f8187d9-6c5e-41ac-8cc2-133424d6cded" />
+**Figure 2. Generating Participant Access Tokens**
 
-3 participants in the LiveKit call
-<img width="1913" height="949" alt="image" src="https://github.com/user-attachments/assets/743ade97-eb6b-4137-9f49-e25f67e5c375" />
+Shows the Python script generating access tokens for Alice, Bob, and Carol to prepare them for LiveKit testing.
+![Figure 2 - Generating Participant Access Tokens](https://github.com/user-attachments/assets/0f8187d9-6c5e-41ac-8cc2-133424d6cded)
 
-User being removed from the call, showing disconnected.
-<img width="1917" height="947" alt="image" src="https://github.com/user-attachments/assets/6d3eabbd-7df1-4a95-9f73-4336205a7443" />
+**Figure 3. Three Participants Connected to the LiveKit Room**
 
-User being muted from the call, showing muted.
-<img width="1918" height="947" alt="image" src="https://github.com/user-attachments/assets/e63502d3-1617-4c7f-ac40-7190b7916455" />
+Shows Alice, Bob, and Carol connected to the same LiveKit call before the mute and removal tests.
+![Figure 3 - Three Participants Connected to LiveKit](https://github.com/user-attachments/assets/743ade97-eb6b-4137-9f49-e25f67e5c375)
 
-3 participants actively talking.
-<img width="1916" height="942" alt="image" src="https://github.com/user-attachments/assets/9722e17a-5b91-4bb2-9a43-eb5199af88b7" />
+**Figure 4. Three Participants Actively Talking in the LiveKit Room**
 
-Results of the 10 removing trials.
-<img width="1111" height="568" alt="image" src="https://github.com/user-attachments/assets/4ba8093c-8c7f-4192-ac1c-1feb503a2d4d" />
+Shows Alice, Bob, and Carol actively participating in the call, demonstrating that participant audio streams are working.
 
-Results of the 10 muting trials.
-<img width="1111" height="568" alt="image" src="https://github.com/user-attachments/assets/1af763dd-2528-4577-aced-03d3b41990e0" />
+![Figure 6 - Three Participants Actively Talking](https://github.com/user-attachments/assets/9722e17a-5b91-4bb2-9a43-eb5199af88b7)
+
+**Figure 5. Participant Successfully Removed from the LiveKit Call**
+
+Shows Bob being removed from the LiveKit room and appearing as disconnected after the removal action.
+![Figure 4 - Participant Removed](https://github.com/user-attachments/assets/6d3eabbd-7df1-4a95-9f73-4336205a7443)
+
+**Figure 6. Participant Successfully Muted in the LiveKit Call**
+
+Shows Bob being muted by the enforcement script while remaining connected to the LiveKit room.
+![Figure 5 - Participant Muted](https://github.com/user-attachments/assets/e63502d3-1617-4c7f-ac40-7190b7916455)
+
+**Figure 7. Results of the 10 Participant Removal Trials**
+
+Shows the results of all 10 removal trials, including the measured enforcement times and successful removal outcomes.
+![Figure 7 - Participant Removal Test Results](https://github.com/user-attachments/assets/4ba8093c-8c7f-4192-ac1c-1feb503a2d4d)
+
+**Figure 8. Results of the 10 Participant Muting Trials**
+
+Shows the results of all 10 mute trials, including the measured enforcement times and successful muting outcomes.
+![Figure 8 - Participant Muting Test Results](https://github.com/user-attachments/assets/1af763dd-2528-4577-aced-03d3b41990e0)
 
 
 
