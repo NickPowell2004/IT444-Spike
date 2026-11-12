@@ -46,7 +46,7 @@ Can the PEP mute or remove one flagged participant in under 5 seconds without af
 
 ## Screen Recording
 
-Watch the technical spike demonstration
+Video: https://www.youtube.com/watch?v=g-cxw9iWrEg
 
 The recording demonstrates the mute and removal tests, including the execution times and confirmation that other participants remain unaffected.
 
