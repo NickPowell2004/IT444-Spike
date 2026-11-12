@@ -61,6 +61,10 @@ async def run_trial(lk, mode, trial):
     if mode == "mute" and not tracks:
         print(f"{TARGET} has no audio track. Turn on the microphone and retry.")
         return None
+    if mode == "mute" and all(t.muted for t in tracks):
+        print(f"{TARGET} is already muted, so this trial would be invalid. "
+              f"Unmute their mic and retry.")
+        return None
 
     action = "mute" if mode == "mute" else "remove"
     trust = 0.5 if mode == "mute" else 0.1
