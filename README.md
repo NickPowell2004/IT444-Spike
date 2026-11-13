@@ -33,10 +33,10 @@ Can the PEP mute or remove one flagged participant in under 5 seconds without af
 5. python pep_spike.py remove 10 (rejoin as bob between trials)
 
 ## Limits
-- Tested on a desktop computer
+- Tested on a Windows PC, not the Raspberry Pi 5 or Orin NX
 - A script stands in for the PDP and PEP
 - Detection time is not included
-- Times are server-side (when the server shows the change), not when a browser shows it
+- Times are server-side, not when a browser shows it
 - Bob was unmuted or rejoined by hand between trials
 - The 5-second pass mark was set generously, leaving about 25 s of the 30 s goal for detection
 
