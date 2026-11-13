@@ -72,7 +72,6 @@ Shows Alice, Bob, and Carol connected to the same LiveKit call before the mute a
 **Figure 4. Three Participants Actively Talking in the LiveKit Room**
 
 Shows Alice, Bob, and Carol actively participating in the call, demonstrating that participant audio streams are working.
-
 ![Figure 4 - Three Participants Actively Talking](https://github.com/user-attachments/assets/9722e17a-5b91-4bb2-9a43-eb5199af88b7)
 
 **Figure 5. Participant Successfully Removed from the LiveKit Call**
